@@ -1,0 +1,44 @@
+[
+  {
+    "title": "GenAI Application Engineer",
+    "company": "Acme AI",
+    "salary_max": 185000,
+    "remote": true,
+    "skills": ["python", "fastapi", "rag", "evals"]
+  },
+  {
+    "title": "ML Platform Engineer",
+    "company": "DataCo",
+    "salary_max": 210000,
+    "remote": false,
+    "skills": ["python", "kubernetes", "mlops"]
+  },
+  {
+    "title": "AI Full-Stack Developer",
+    "company": "StartupX",
+    "salary_max": 165000,
+    "remote": true,
+    "skills": ["typescript", "python", "react", "llm-apis"]
+  },
+  {
+    "title": "Frontend Engineer",
+    "company": "WebShop",
+    "salary_max": 140000,
+    "remote": true,
+    "skills": ["typescript", "react", "css"]
+  },
+  {
+    "title": "LLM Engineer",
+    "company": "PromptLabs",
+    "salary_max": 195000,
+    "remote": true,
+    "skills": ["python", "prompt-engineering", "evals", "agents"]
+  },
+  {
+    "title": "Data Engineer",
+    "company": "PipeCorp",
+    "salary_max": 170000,
+    "remote": false,
+    "skills": ["python", "sql", "airflow"]
+  }
+]

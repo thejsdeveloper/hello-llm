@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python extract.py)",
+      "Read(//usr/local/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/bin/**)",
+      "Bash(code --list-extensions)",
+      "mcp__ide__getDiagnostics",
+      "Bash(uv python *)",
+      "Bash(/Users/vikas/work/llm-lerarning/hello-llm/.venv/bin/python --version)",
+      "Bash(gh auth *)",
+      "Bash(git add *)"
+    ]
+  }
+}
