@@ -1,10 +1,12 @@
 from typing import TypedDict
 
+
 class User(TypedDict):
     name: str
     age: int
     department: str
     salary: int
+
 
 users: list[User] = [
     {"name": "Alice", "age": 28, "department": "Engineering", "salary": 85000},
@@ -15,15 +17,10 @@ users: list[User] = [
 ]
 
 
-users_under_30 = [
-    u["name"] for u in users if u["age"] < 30
-]
+users_under_30 = [u["name"] for u in users if u["age"] < 30]
 print(users_under_30)
 
-salary_by_title = {
-    job["department"]: job["salary"]
-    for job in users
-}
+salary_by_title = {job["department"]: job["salary"] for job in users}
 
 print(f"salary_by_title : {salary_by_title}")
 
@@ -37,7 +34,7 @@ age_sum = sum([u["age"] for u in users])
 
 print(f"sum of age for all the users is {age_sum}")
 
-names = (", ").join([ u["name"] for u in users])
+names = (", ").join([u["name"] for u in users])
 
 print(f"user names are {names}")
 

@@ -5,6 +5,7 @@ from typing import Literal
 
 api_key = os.getenv("OPEN_ROUTER_KEY")
 
+
 class JobPosting(BaseModel):
     title: str
     company: str
@@ -41,5 +42,3 @@ with OpenRouter(api_key=api_key) as client:
     print(f"remote: {job.remote}, salary_max: {job.salary_max}")
     print(f"skills: {', '.join(job.skills)}")
     print(f"Seniority {job.seniority}")
-
-
