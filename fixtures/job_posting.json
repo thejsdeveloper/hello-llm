@@ -1,0 +1,8 @@
+{
+  "title": "Senior AI Engineer",
+  "company": "Acme Corp",
+  "remote": false,
+  "skills": ["Python", "FastAPI", "RAG patterns"],
+  "salary_max": 185000,
+  "seniority": "senior"
+}
